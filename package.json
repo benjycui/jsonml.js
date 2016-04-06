@@ -1,0 +1,25 @@
+{
+  "name": "jsonml.js",
+  "version": "0.1.0-beta.0",
+  "description": "JsonML-related tools for losslessly converting between XML/HTML and JSON, including mixed-mode XML. http://jsonml.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsonml",
+    "json",
+    "xml",
+    "html"
+  ],
+  "contributors": [
+    {
+      "name": "Stephen M. McKamey"
+    },
+    {
+      "name": "Benjy Cui",
+      "email": "benjytrys@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}
