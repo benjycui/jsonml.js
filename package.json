@@ -1,7 +1,7 @@
 {
   "name": "jsonml.js",
   "version": "0.1.0",
-  "description": "JsonML-related tools for losslessly converting between XML/HTML and JSON, including mixed-mode XML. http://jsonml.org",
+  "description": "JsonML-related tools.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./lib/utils.js ./test",
