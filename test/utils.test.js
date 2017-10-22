@@ -262,15 +262,17 @@ describe('utils', function() {
         assert.deepEqual(jml, ['div', ['em', 'hello'], ['strong', 'world']]);
       });
 
-      // @TODO - is this an intentional mutation?
-      it('should remove fragment contents', function() {
+      it('should not mutate child fragment param', function() {
         const jml = ['div'];
         const fragment = ['',
           ['em', 'hello'],
           ['strong', 'world'],
         ];
         utils.appendChild(jml, fragment);
-        assert.deepEqual(fragment, []);
+        assert.deepEqual(fragment, ['',
+          ['em', 'hello'],
+          ['strong', 'world'],
+        ]);
       });
     });
 
