@@ -7,6 +7,10 @@
 
 JsonML-related tools.
 
+## Forked Library
+
+From from [benjycui/jsonml.js](https://github.com/benjycui/jsonml.js) since it is used by many CondeNast applications but not actively supported. Fork created by [pgoldrbx](https://github.com/pgoldrbx).
+
 ## Usage
 
 ```bash
