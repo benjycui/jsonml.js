@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('assert');
+const html = require('../lib/html');
 const utils = require('../lib/utils');
 
 describe('utils', function() {
@@ -311,18 +312,16 @@ describe('utils', function() {
     });
 
     describe('when appending a raw child', function() {
-      // @TODO - this will currently throw an error due to missing function `isRaw`
-      xit('should append to the parent', function() {
+      it('should append to the parent', function() {
         const jml = ['div'];
-        const child = new function RawChild() {};
+        const child = html.raw('string value');
         utils.appendChild(jml, child);
-        assert.strictEqual(jml, ['div', child]);
+        assert.deepEqual(jml, ['div', child]);
       });
     });
 
     describe('when appending attributes', function() {
-      // @TODO - this will currently throw an error due to missing function `isRaw`
-      xit('should add attributes to the parent element', function() {
+      it('should add attributes to the parent element', function() {
         const jml = ['div'];
         const attrs = { a: 1 };
         utils.appendChild(jml, attrs);
