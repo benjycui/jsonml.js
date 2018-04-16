@@ -1,5 +1,5 @@
 {
-  "name": "jsonml.js",
+  "name": "@condenast/jsonml.js",
   "version": "0.1.1",
   "description": "JsonML-related tools.",
   "main": "index.js",
@@ -21,6 +21,14 @@
     "xml",
     "html"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CondeNast/jsonml.js"
+  },
+  "bugs": {
+    "url": "https://github.com/CondeNast/jsonml.js/issues"
+  },
+  "homepage": "https://github.com/CondeNast/jsonml.js",
   "contributors": [
     {
       "name": "Stephen M. McKamey"
@@ -28,6 +36,10 @@
     {
       "name": "Benjy Cui",
       "email": "benjytrys@gmail.com"
+    },
+    {
+      "name": "Phil Gold",
+      "email": "pgold@rubixmedia.com"
     }
   ],
   "license": "MIT",
